@@ -31,7 +31,7 @@ const FeaturesTwo = () => {
             right now!
           </p>
           <span
-            className='flex items-center text-center text-[#4196B8] gap-2 lg:mt-[24px] text-[16px] leading-[28px] font-medium pb-4 pt-8'
+            className='flex items-center text-center text-[#4196B8] gap-2 lg:mt-[24px] text-[16px] leading-[28px] font-medium pb-4 pt-12'
             data-aos='fade-down'
             data-aos-delay='800'
           >

@@ -15,7 +15,7 @@ const FeaturesThree = () => {
             Leverage a rich partner network that sells your solution exactly the
             way your best salesman would.
           </p>
-          <span className='flex items-center text-center text-[#4196B8] gap-2 lg:mt-[24px] text-[16px] leading-[28px] font-medium pb-4 pt-8'>
+          <span className='flex items-center text-center text-[#4196B8] gap-2 lg:mt-[24px] text-[16px] leading-[28px] font-medium pb-4 pt-12'>
             <a href='signup' className='cursor-pointer'>
               Sign up now
             </a>
