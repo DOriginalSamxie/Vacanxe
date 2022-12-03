@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  font-family: 'Poppins';
+  background: linear-gradient(
+    261.8deg,
+    #1d293f 59.05%,
+    rgba(0, 153, 214, 0.81) 92.75%
+  );
+  height: 431px;
+}
+
+.hero:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: #fff;
+  clip-path: polygon(100% 60%, 0% 100%, 100% 100%);
+}
+
+.hero p {
+  font-family: 'Roboto';
+}
+.hero img {
+  mix-blend-mode: luminosity;
+}
