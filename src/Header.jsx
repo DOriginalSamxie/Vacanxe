@@ -28,7 +28,11 @@ const Header = () => {
             <li>
               <a href='Program'>Program</a>
             </li>
-            <li>Services</li>
+            <li>
+              <a href='Services' className='border-b-[3px] border-[#4EB9E3]'>
+                Services
+              </a>
+            </li>
             <li>Price</li>
           </ul>
         </div>

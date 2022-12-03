@@ -5,6 +5,10 @@ import Services from './Services'
 // import aos
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import FeaturesOne from './FeaturesOne'
+import FeaturesTwo from './FeaturesTwo'
+import FeaturesThree from './FeaturesThree'
+import FeaturesFour from './FeaturesFour'
 
 function App() {
   Aos.init({
@@ -16,6 +20,10 @@ function App() {
       <Header />
       <Hero />
       <Services />
+      <FeaturesOne />
+      <FeaturesTwo />
+      <FeaturesThree />
+      <FeaturesFour />
     </div>
   )
 }

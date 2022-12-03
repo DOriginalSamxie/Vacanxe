@@ -31,3 +31,13 @@ body {
 .hero img {
   mix-blend-mode: luminosity;
 }
+
+.featuresone,
+p,
+span {
+  font-family: 'Poppins';
+}
+
+.featuretwo {
+  font-family: 'Poppins';
+}
