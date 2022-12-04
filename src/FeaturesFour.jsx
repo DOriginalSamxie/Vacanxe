@@ -1,4 +1,5 @@
 import React from 'react'
+import Location from '../src/Assets/Location.svg'
 
 const FeaturesFour = () => {
   return (
@@ -82,8 +83,14 @@ const FeaturesFour = () => {
               </div>
             </div>
           </div>
-          <div className='max-w-[150px]'>
-            <p className='lg:pt-[293px]'>Contact us</p>
+          <div className=' w-1/2'>
+            <h2 className='lg:pt-[293px]'>Contact us</h2>
+            <div className='  '>
+              <p className='flex items-center gap-[20px]'>
+                <img src={Location} />
+                4517 Washington Ave. Manchester, Kentucky 39495
+              </p>
+            </div>
           </div>
         </form>
       </div>
