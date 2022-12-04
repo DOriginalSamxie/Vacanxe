@@ -68,7 +68,7 @@ const Header = () => {
           {navMobile ? (
             <RiMenu4Fill className='text-primary-200 text-2xl cursor-pointer' />
           ) : (
-            <RiCloseFill className='text-primary-200 text-2xl cursor pointer' />
+            <RiCloseFill className='text-primary-200 text-2xl cursor-pointer' />
           )}
         </div>
         <div
@@ -77,7 +77,42 @@ const Header = () => {
               ? 'fixed left-[-100%]'
               : 'lg:hidden w-full bg-neutral-500 fixed top-0 left-0 right-0 -bottom-12 -z-10 overflow-hidden transition-all '
           }
-        ></div>
+        >
+          <ul className='w-full h-full flex flex-col justify-center items-center gap-y-8'>
+            <li className='cursor-pointer'>
+              <a
+                className='text-white cursor-pointer hover:text-[#4EB9E3]'
+                href='job'
+              >
+                Post Job
+              </a>
+            </li>
+            <li>
+              <a
+                className='text-white cursor-pointer hover:text-[#4EB9E3]'
+                href='program'
+              >
+                Program
+              </a>
+            </li>
+            <li>
+              <a
+                className='text-white cursor-pointer hover:text-[#4EB9E3]'
+                href='services'
+              >
+                Services
+              </a>
+            </li>
+            <li>
+              <a
+                className='text-white cursor-pointer hover:text-[#4EB9E3]'
+                href='price'
+              >
+                Price
+              </a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
   )
