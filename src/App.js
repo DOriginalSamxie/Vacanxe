@@ -9,6 +9,7 @@ import FeaturesOne from './FeaturesOne'
 import FeaturesTwo from './FeaturesTwo'
 import FeaturesThree from './FeaturesThree'
 import FeaturesFour from './FeaturesFour'
+import Footer from './Footer'
 
 function App() {
   Aos.init({
@@ -24,6 +25,7 @@ function App() {
       <FeaturesTwo />
       <FeaturesThree />
       <FeaturesFour />
+      <Footer />
     </div>
   )
 }
