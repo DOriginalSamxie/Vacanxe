@@ -9,7 +9,7 @@ const Hero = () => {
           <h1
             className='max-w-[620px] mt-[30px] md:text-[25px] lg:mt-[95px] font-bold lg:text-[44px] lg:leading-[65px] text-white text-center'
             data-aos='fade-down'
-            data-aos-delay='500'
+            data-aos-delay='200'
           >
             Find the right <span className='text-[#FFAE1B]'>talents</span> to
             fuel your business growth
@@ -17,7 +17,7 @@ const Hero = () => {
           <p
             className='font-medium  leading-[30px] text-center text-[#fff] text-[16px]  max-w-[605px]'
             data-aos='fade-down'
-            data-aos-delay='600'
+            data-aos-delay='300'
           >
             Join a vibrant community of MSPs to forge long-lasting relationships
             with partners that help you create excellent customer experiences
@@ -28,7 +28,7 @@ const Hero = () => {
             src={PartnerLogo}
             className=''
             data-aos='fade-right'
-            data-aos-delay='700'
+            data-aos-delay='400'
             alt=''
           />
         </div>
