@@ -25,25 +25,44 @@ const Header = () => {
               {' '}
               <a
                 href='post'
-                className='font-medium text-[18px] text-[#2E2E2E] leading-[21px]'
+                className='font-medium text-[18px] text-[#2E2E2E] leading-[21px] hover:text-[#2E2E2E]/75'
               >
                 Post Job
               </a>
             </li>
             <li>
-              <a href='Program'>Program</a>
+              <a
+                href='Program'
+                className='font-medium text-[18px] text-[#2E2E2E] leading-[21px] hover:text-[#2E2E2E]/75'
+              >
+                Program
+              </a>
             </li>
             <li>
-              <a href='Services' className='border-b-[3px] border-[#4EB9E3]'>
+              <a
+                href='Services'
+                className='border-b-[3px] border-[#4EB9E3] font-medium text-[18px] text-[#2E2E2E] leading-[21px] hover:text-[#2E2E2E]/75'
+              >
                 Services
               </a>
             </li>
-            <li>Price</li>
+            <li>
+              <a
+                href='Price'
+                className='font-medium text-[18px] text-[#2E2E2E] leading-[21px] hover:text-[#2E2E2E]/75'
+              >
+                Price
+              </a>
+            </li>
           </ul>
         </div>
         <div className='hidden lg:flex justify-end items-center'>
-          <div className='mr-[47px]'>Login</div>
-          <div className='mr-[97px]'>Sign Up</div>
+          <div className='mr-[47px] text-[#4196B8] cursor-pointer hover:text-[#4196B8]/75'>
+            Login
+          </div>
+          <div className='mr-[97px] text-[#4196B8] cursor-pointer hover:text-[#4196B8]/75'>
+            Sign Up
+          </div>
         </div>
         <div onClick={handleNav} className='lg:hidden absolute right-4'>
           {navMobile ? (
