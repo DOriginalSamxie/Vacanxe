@@ -5,11 +5,16 @@ import { RiMenu4Fill, RiCloseFill } from 'react-icons/ri'
 
 const Header = () => {
   const [navMobile, setNavMobile] = useState(true)
+  const [isActive, setIsActive] = useState(false)
   const handleNav = () => {
     setNavMobile(!navMobile)
   }
   return (
-    <header className='container mx-auto mt-[33px] pl-[65px] max-w-[1520px]'>
+    <header
+      className={`${
+        isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px] '
+      }relative max-w-[1520px] z-30 container mx-auto   transition-all duration-300 mt-[33px] pl-[65px]`}
+    >
       <nav className=' flex justify-between items-center'>
         <a href='/'>
           <img className='h-[30px] lg:h-[60px]' src={Logo} alt='logo' />
@@ -50,7 +55,7 @@ const Header = () => {
         <div
           className={
             navMobile
-              ? 'fixed left-[-100%] z-10'
+              ? 'fixed left-[-100%]'
               : 'lg:hidden w-full bg-neutral-500 fixed top-0 left-0 right-0 -bottom-12 -z-10 overflow-hidden transition-all '
           }
         ></div>
