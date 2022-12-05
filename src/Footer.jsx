@@ -60,7 +60,7 @@ const Footer = () => {
         </div>
       </div>
       <div class='border-t-[1px]  border-[#313D55] mx-auto mt-[124px] container max-w-[1112px]'>
-        <div className='flex py-[22px] justify-between'>
+        <div className='flex py-[22px] justify-between items-center'>
           <p className='text-[13px] text-[#8C97AC] leading-[28px] font-normal italic'>
             © Vacanxe 2022, All Rights Reserved
           </p>
