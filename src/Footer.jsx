@@ -61,7 +61,9 @@ const Footer = () => {
       </div>
       <div class='border-t-[1px]  border-[#313D55] mx-auto mt-[124px] container max-w-[1112px]'>
         <div className='flex py-[22px] justify-between'>
-          <p>© Vacanxe 2022, All Rights Reserved</p>
+          <p className='text-[13px] text-[#8C97AC] leading-[28px] font-normal italic'>
+            © Vacanxe 2022, All Rights Reserved
+          </p>
           <div className='flex gap-[18.67px]'>
             <img src={ObjectOne} alt='' className='w-[16px] h-[16px]' />
             <img src={ObjectTwo} alt='' className='w-[16px] h-[16px]' />
