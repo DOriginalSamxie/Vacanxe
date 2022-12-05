@@ -55,7 +55,7 @@ const FeaturesFour = () => {
                 </label>
                 <input
                   className='border-[1px] border-[#C8D0DA] rounded-[10px] py-[14px] w-full text-[16px] px-[24px]'
-                  type='text'
+                  type='number'
                   name='email'
                   placeholder='Enter your phone number'
                 />
