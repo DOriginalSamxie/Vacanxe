@@ -7,7 +7,7 @@ import ObjectThree from '../src/Assets/Objectthree.svg'
 const Footer = () => {
   return (
     <footer className='featurestwo bg-[#1D293F]  md:px-2 lg:px-12 absolute z-[-4] w-full'>
-      <div className='lg:w-[250px] lg:h-[250px] w-[175px] h-[175px] absolute bg-white rounded-[50%] mt-[-120px] left-[-30px] pt-[140px] z-[-2]'>
+      <div className='lg:w-[250px] lg:h-[250px] w-[175px] h-[175px] absolute bg-white rounded-[50%] mt-[-120px] left-[-30px] pt-[134px] z-[-2]'>
         <img
           className='h-[30px] lg:h-[60px] relative m-auto '
           src={Logo}
