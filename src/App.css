@@ -42,6 +42,11 @@ span {
   font-family: 'Poppins';
 }
 
-footer {
+footer,
+p,
+li {
   font-family: 'Roboto';
+}
+h2 .contact-us {
+  font-family: 'Montserrat' !important;
 }

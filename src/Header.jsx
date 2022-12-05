@@ -58,10 +58,10 @@ const Header = () => {
         </div>
         <div className='hidden lg:flex justify-end items-center'>
           <div className='mr-[47px] text-[#4196B8] cursor-pointer hover:text-[#4196B8]/75'>
-            Login
+            <a href='login'>Login</a>
           </div>
           <div className='mr-[97px] text-[#4196B8] cursor-pointer hover:text-[#4196B8]/75'>
-            Sign Up
+            <a href='signup'>Sign Up</a>
           </div>
         </div>
         <div onClick={handleNav} className='lg:hidden absolute right-4'>

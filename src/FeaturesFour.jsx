@@ -11,7 +11,7 @@ const FeaturesFour = () => {
   return (
     <section className='featurestwo md:mt-[89.33px]  mt-[20px] bg-[#F4FBFF] px-12 md:px-2 lg:px-0 pb-[140px]'>
       <div>
-        <form className=' container mx-auto max-w-[1539px]  flex flex-col lg:flex-row xl:pl-[272px] lg:space-x-[98px] lg:px-4'>
+        <form className=' container mx-auto max-w-[1539px]  flex flex-col lg:flex-row 2xl:pl-[272px] lg:space-x-[98px] lg:px-20'>
           <div className='max-w-[575px]'>
             <h1 className='max-w-[450px] md:pt-[64px] text-[#4B4C4E] lg:leading-[47px] lg:text-[36px] font-bold '>
               <span className='border-b-[5px] border-b-[#4EB9E3]'>Build</span>{' '}
@@ -90,7 +90,9 @@ const FeaturesFour = () => {
             </div>
           </div>
           <div className=' '>
-            <h2 className='lg:pt-[293px] pb-[17px]'>Contact us</h2>
+            <h2 className='lg:pt-[293px] pb-[17px] contact-us font-montserrat'>
+              Contact us
+            </h2>
             <div className='  '>
               <p className='flex items-center gap-[20px] text-[16px] leading-[26px] pb-[25px]'>
                 <img src={Location} alt='location' />
