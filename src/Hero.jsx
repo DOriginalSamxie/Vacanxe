@@ -3,7 +3,7 @@ import PartnerLogo from '../src/Assets/partnerhero.svg'
 
 const Hero = () => {
   return (
-    <section className='hero mt-[40px] relative w-full'>
+    <section className='hero mt-[20px] lg:mt-[40px] relative w-full'>
       <div className='container mx-auto '>
         <div className='flex flex-col items-center  lg:gap-[7px] '>
           <h1

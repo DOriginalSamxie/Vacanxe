@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <header
       className={`${
-        isActive ? 'bg-neutral-500 py-[16px]' : 'bg-transparent py-[20px] '
+        isActive ? 'bg-neutral-500 pt-[33px]' : 'bg-transparent  '
       }relative max-w-[1520px] z-30 container mx-auto   transition-all duration-300 mt-[33px] pl-[65px]`}
     >
       <nav className=' flex justify-between items-center'>
